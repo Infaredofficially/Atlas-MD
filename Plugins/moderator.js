@@ -369,7 +369,7 @@ module.exports = {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-19 to set !` },
+            { text: `Please enter a character number between 0-20 to set !` },
             { quoted: m }
           );
         }
@@ -383,11 +383,11 @@ module.exports = {
         }
 
         const intinput = parseInt(text);
-        if (intinput < 0 || intinput > 19) {
+        if (intinput < 0 || intinput > 20) {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-19 to set !` },
+            { text: `Please enter a character number between 0-20 to set !` },
             { quoted: m }
           );
         }
@@ -412,6 +412,7 @@ module.exports = {
           "Yor",
           "Shinbou",
           "Eiko",
+          "Annie",
         ];
         const botLogos = [
           "https://wallpapercave.com/wp/wp5924545.jpg",
@@ -434,6 +435,7 @@ module.exports = {
           "https://images7.alphacoders.com/123/1236729.jpg",
           "https://wallpapercave.com/wp/wp4650481.jpg",
           "https://images8.alphacoders.com/122/1229829.jpg",
+          "https://wallpapercave.com/wp/wp4320232.png"
         ];
 
         checkChar = await getChar();
