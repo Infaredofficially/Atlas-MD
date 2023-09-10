@@ -72,6 +72,7 @@ module.exports = {
           "Who is closest to your ideal type of partner here",
           "Who do you like to play with??",
           "Have you ever rejected people? the reason why?",
+          "Why are you not sending Tomi nudes? 🥲",
           "Mention an incident that made you hurt that you still remember",
           "What achievements have you got this year??",
           "What's your worst habit at school??",
