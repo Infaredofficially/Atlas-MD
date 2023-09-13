@@ -369,7 +369,7 @@ module.exports = {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-21 to set !` },
+            { text: `Please enter a character number between 0-20 to set !` },
             { quoted: m }
           );
         }
@@ -383,11 +383,11 @@ module.exports = {
         }
 
         const intinput = parseInt(text);
-        if (intinput < 0 || intinput > 21) {
+        if (intinput < 0 || intinput > 20) {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-21 to set !` },
+            { text: `Please enter a character number between 0-20 to set !` },
             { quoted: m }
           );
         }
